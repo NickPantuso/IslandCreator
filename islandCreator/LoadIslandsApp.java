@@ -139,7 +139,7 @@ public class LoadIslandsApp extends JFrame { //why is it blank if you click twic
 	}
 
 	/**
-	 * Creates the output panel on the left that holds the user's saved maps, as the output text at the top.
+	 * Creates the output panel on the left that holds the user's saved maps, and the output text at the top.
 	 * 
 	 * @param outputPanel
 	 * @param titleTxt
