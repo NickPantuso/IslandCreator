@@ -3,5 +3,5 @@ Once you open the GUI, you'll be able to type anything you want under 'input,' h
 
 # What was learned?
 
-* Effective usage of data strucures and algorithms (depth first search, 2D arrays, queues)
+* Usage of data structures and/or algorithms (depth first search, 2D arrays, queues)
 * Intermediate GUI skills (Using a variety of listeners, text manipulation, buttons that open other GUIs)
