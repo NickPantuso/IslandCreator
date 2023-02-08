@@ -241,7 +241,7 @@ public class IslandCreatorApp extends JFrame implements KeyListener{
 	}
 
 	/**
-	 * Creates the island panel in the center that holds the user input, text pane for the user's creation, and both the create and reset buttons.
+	 * Creates the island panel in the center that holds the user input, panel for the user's creation, and both the create and reset buttons.
 	 * 
 	 * @param islandPanel
 	 * @param createPanel
