@@ -21,9 +21,6 @@ import javax.swing.JButton;
  */
 public class LoadIslandsApp extends JFrame {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private IslandCreator nextIsland;
