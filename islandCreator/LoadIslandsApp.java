@@ -19,7 +19,7 @@ import javax.swing.JButton;
  * 
  * @author Nick Pantuso
  */
-public class LoadIslandsApp extends JFrame { //why is it blank if you click twice
+public class LoadIslandsApp extends JFrame {
 
 	/**
 	 * 
