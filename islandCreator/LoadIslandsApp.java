@@ -37,6 +37,7 @@ public class LoadIslandsApp extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		//set background
 		
 		Iterator<IslandCreator> i = q.iterator();
 		nextIsland = new IslandCreator();
