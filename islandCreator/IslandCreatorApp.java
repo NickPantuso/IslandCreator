@@ -61,6 +61,7 @@ public class IslandCreatorApp extends JFrame implements KeyListener{
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		//create background
 		
 		JPanel titlePanel = new JPanel();
 		JLabel inputTxt = new JLabel("Input");
@@ -115,6 +116,7 @@ public class IslandCreatorApp extends JFrame implements KeyListener{
 					}
 					island = new IslandCreator(userInput, input);
 					numTxt.setText("Number of islands: " + island.getNumIslands());
+					//count islands
 					
 					saveBtn.setEnabled(true);
 				}
@@ -227,14 +229,14 @@ public class IslandCreatorApp extends JFrame implements KeyListener{
 
 		saveBtn.setBorder(new EmptyBorder(15,35,15,35));
 		saveBtn.setBackground(Color.PINK);
-    	saveBtn.setForeground(Color.BLACK);
-    	saveBtn.setEnabled(false);
+    		saveBtn.setForeground(Color.BLACK);
+    		saveBtn.setEnabled(false);
 		buttonPanel.add(saveBtn, BorderLayout.WEST);
 		
 		loadBtn.setBorder(new EmptyBorder(10,35,10,35));
 		loadBtn.setBackground(Color.PINK);
-    	loadBtn.setForeground(Color.BLACK);
-    	loadBtn.setEnabled(false);
+    		loadBtn.setForeground(Color.BLACK);
+    		loadBtn.setEnabled(false);
 		buttonPanel.add(loadBtn, BorderLayout.EAST);
 		
 		contentPane.add(buttonPanel, BorderLayout.SOUTH);
